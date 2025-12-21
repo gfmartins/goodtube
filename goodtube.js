@@ -5205,8 +5205,8 @@
         event.stopImmediatePropagation()
 
         const params = {
-          email: document.querySelector(".goodTube_reportEmail")?.value,
           message: document.querySelector(".goodTube_reportText")?.value,
+          email: document.querySelector(".goodTube_reportEmail")?.value,
         }
 
         const options = {
